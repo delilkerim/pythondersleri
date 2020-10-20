@@ -4,6 +4,8 @@ import time
 GPIO.setmode(GPIO.BCM)  # GPIO.setmode(GPIO.BOARD)
 GPIO.setup(14,GPIO.OUT)
 
+# Bu benden ekelem
+
 while(True):
 	GPIO.output(14,GPIO.HIGH)
 	time.sleep(1) # 1 saniye bekle
